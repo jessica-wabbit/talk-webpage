@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
   $("button#hello").click(function() {
     $("ul#user").prepend("<li>Hello!</li>");
     $("ul#webpage").prepend("<li>Howdy!</li>");
